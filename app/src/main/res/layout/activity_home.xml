@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home"
+    android:background="@drawable/fondo3">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/movi_logo"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="44dp"
+        android:src="@drawable/movi_merida"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="281dp"
+        android:layout_height="128dp"
+        android:id="@+id/footer_home"
+        android:src="@drawable/footer_merida"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="24dp"
+        android:src="@drawable/home_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/mapear_icon"
+        android:layout_width="134dp"
+        android:layout_height="178dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/mapear_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="134dp"
+        android:layout_height="174dp"
+        android:id="@+id/recorridos_icon"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="276dp"
+        android:src="@drawable/recorridos_icon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/contenido_icon"
+        android:layout_width="134dp"
+        android:layout_height="171dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:src="@drawable/contenido_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mapear_icon" />
+
+    <ImageView
+        android:layout_width="215dp"
+        android:layout_height="40dp"
+        android:id="@+id/cambiar_ciudad"
+        android:layout_marginBottom="144dp"
+        android:src="@drawable/cambiar_ciudad"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

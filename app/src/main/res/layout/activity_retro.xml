@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Retro"
+    android:background="@drawable/fondo5">
+
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="156dp"
+        android:background="@drawable/white_rectangle"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="73dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/pesimo"
+            android:id="@+id/calificacion_icon"/>
+
+        <TextView
+            android:id="@+id/calificacion_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text="¿QUÉ SALIO MAL?"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"/>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_bold"
+            android:text="SELECCIONA HASTA 3 RECUADROS"
+            android:textColor="#828285"
+            android:layout_marginTop="5dp"
+            android:textSize="8sp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+                <ImageView
+                    android:layout_width="123dp"
+                    android:layout_height="44dp"
+                    android:src="@drawable/servicio_"
+                    android:id="@+id/servicio"/>
+
+                <ImageView
+                    android:layout_width="123dp"
+                    android:layout_height="44dp"
+                    android:src="@drawable/conduccion_"
+                    android:id="@+id/conduccion"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="123dp"
+                android:layout_height="44dp"
+                android:src="@drawable/ambiente_"
+                android:id="@+id/ambiente"/>
+
+            <ImageView
+                android:layout_width="123dp"
+                android:layout_height="44dp"
+                android:src="@drawable/confort_"
+                android:id="@+id/confort"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:layout_width="123dp"
+                android:layout_height="44dp"
+                android:src="@drawable/seguridad_"
+                android:id="@+id/seguridad"/>
+
+            <ImageView
+                android:layout_width="123dp"
+                android:layout_height="44dp"
+                android:src="@drawable/accesibilidad_"
+                android:id="@+id/accesibilidad"/>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="131dp"
+            android:layout_height="33dp"
+            android:src="@drawable/enviar_retro"
+            android:id="@+id/enviar_retro"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+
+            android:id="@+id/dejar_comentario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="DEJAR UN COMENTARIO"
+            android:textColor="#828285"
+            android:textSize="8sp" />
+        
+        <ImageView
+            android:layout_width="104dp"
+            android:layout_height="20dp"
+            android:src="@drawable/logo_retro"
+            android:layout_marginTop="25dp"
+            />
+
+        
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
